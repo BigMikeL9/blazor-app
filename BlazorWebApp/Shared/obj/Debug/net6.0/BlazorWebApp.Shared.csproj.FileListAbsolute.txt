@@ -1,0 +1,12 @@
+C:\Users\burni\Desktop\BlazorWebApp\BlazorWebApp\Shared\bin\Debug\net6.0\BlazorWebApp.Shared.deps.json
+C:\Users\burni\Desktop\BlazorWebApp\BlazorWebApp\Shared\bin\Debug\net6.0\BlazorWebApp.Shared.dll
+C:\Users\burni\Desktop\BlazorWebApp\BlazorWebApp\Shared\bin\Debug\net6.0\BlazorWebApp.Shared.pdb
+C:\Users\burni\Desktop\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\net6.0\BlazorWebApp.Shared.csproj.AssemblyReference.cache
+C:\Users\burni\Desktop\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\net6.0\BlazorWebApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burni\Desktop\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\net6.0\BlazorWebApp.Shared.AssemblyInfoInputs.cache
+C:\Users\burni\Desktop\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\net6.0\BlazorWebApp.Shared.AssemblyInfo.cs
+C:\Users\burni\Desktop\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\net6.0\BlazorWebApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\burni\Desktop\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\net6.0\BlazorWebApp.Shared.dll
+C:\Users\burni\Desktop\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\net6.0\refint\BlazorWebApp.Shared.dll
+C:\Users\burni\Desktop\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\net6.0\BlazorWebApp.Shared.pdb
+C:\Users\burni\Desktop\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\net6.0\ref\BlazorWebApp.Shared.dll

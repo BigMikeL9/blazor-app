@@ -1,0 +1,41 @@
+﻿@page "/products"
+@inject IJSRuntime JSRuntime
+
+<h3>Products</h3>
+
+
+<ol>
+    @foreach (var product in ProductsList)
+    {
+        <li>
+            <article>
+                <div>
+                    <a href="#">
+                        <img src="@product.ImageUrl" alt="@product.Title" />
+                    </a>
+                </div>
+
+            <p>Title: @product.Title</p>
+            <p>Description: @product.Description</p>
+            <p>Price: $@product.Price</p>
+            </article>
+        </li>
+    }
+
+</ol>
+
+
+@code {
+    private static List<Product> ProductsList = new List<Product>
+    {
+        new Product {Id= 1, Title= "Product 1", Description= "sajdlasjdlkajd", ImageUrl="https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg", Price= 121.22m  },
+        new Product {Id= 2, Title= "Product 2",Description= "lllllllllllllllllll", ImageUrl="https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg", Price= 87.22m  },
+        new Product {Id= 2, Title= "Product 3",Description= "oooooooooooooooooooooooo", ImageUrl="https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg", Price= 9997.22m  }
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        await JSRuntime.InvokeVoidAsync("console.log", "Products List", ProductsList);
+    }
+    
+}
